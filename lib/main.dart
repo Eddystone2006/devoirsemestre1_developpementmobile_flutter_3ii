@@ -1,5 +1,7 @@
+import 'package:devoirsemestre1_developpementmobile_flutter_3ii/login_page.dart';
 import 'package:devoirsemestre1_developpementmobile_flutter_3ii/test.dart';
 import 'package:flutter/material.dart';
+import 'package:image_network/image_network.dart';
 
 void main() {
   runApp(const MyApp());
@@ -31,7 +33,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: .fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: const LoginPage(),
     );
   }
 }
